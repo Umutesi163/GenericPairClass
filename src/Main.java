@@ -3,7 +3,7 @@ public class Main {
         /*Pair with String key and Integer value*/
         Pair<String, Integer> pair1 = new Pair<>("Age", 25);
 
-        /*Pair with Integer key and String value*/
+        //Pair with Integer key and String value
         Pair<Integer, String> pair2 = new Pair<>(404, "Not Found");
 
         /*Optional: Using factory method*/
