@@ -1,15 +1,8 @@
 import java.util.Objects;
-
-/**
- * Generic Pair class to store key-value pairs.
- */
 public class Pair<K, V> {
     private final K key;
     private final V value;
 
-    /**
-     * Constructor with validation: key cannot be null
-     */
     public Pair(K key, V value) {
         if (key == null) {
             throw new IllegalArgumentException("Key cannot be null!");
